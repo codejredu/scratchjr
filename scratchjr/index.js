@@ -43323,14 +43323,14 @@
             var t = function() {};
             switch (e) {
             case "editor":
-                n.preprocessAndLoadCss("css", "css/font.css"),
-                n.preprocessAndLoadCss("css", "css/base.css"),
-                n.preprocessAndLoadCss("css", "css/editor.css"),
-                n.preprocessAndLoadCss("css", "css/editorleftpanel.css"),
-                n.preprocessAndLoadCss("css", "css/editorstage.css"),
-                n.preprocessAndLoadCss("css", "css/editormodal.css"),
-                n.preprocessAndLoadCss("css", "css/librarymodal.css"),
-                n.preprocessAndLoadCss("css", "css/paintlook.css"),
+                n.preprocessAndLoadCss("css", "csss/font.css"),
+                n.preprocessAndLoadCss("css", "csss/base.css"),
+                n.preprocessAndLoadCss("css", "csss/editor.css"),
+                n.preprocessAndLoadCss("css", "csss/editorleftpanel.css"),
+                n.preprocessAndLoadCss("css", "csss/editorstage.css"),
+                n.preprocessAndLoadCss("css", "csss/editormodal.css"),
+                n.preprocessAndLoadCss("css", "csss/librarymodal.css"),
+                n.preprocessAndLoadCss("css", "csss/paintlook.css"),
                 t = function() {
                     return o.default.waitForInterface(u.editorMain)
                 }
